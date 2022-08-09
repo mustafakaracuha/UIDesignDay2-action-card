@@ -17,6 +17,13 @@
   src: url(./assets/fonts/coolvetica\ rg.otf);
 }
 
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -27,15 +34,10 @@ body {
   width: 50%;
   height: 350px;
   background: #dde5f9;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 200px;
   align-items: center;
   justify-content: center;
   display: flex;
-  margin: auto;
+  margin-bottom: 200px;
   border-radius: 30px;
 }
 
@@ -269,7 +271,7 @@ button:hover {
     background: #dde5f9;
     border-radius: 0px;
     overflow: hidden;
-    position: inherit;
+    margin-bottom: 0;    
   }
   .main {
     width: 100%;
