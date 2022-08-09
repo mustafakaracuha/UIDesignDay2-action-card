@@ -294,12 +294,15 @@ button:hover {
     padding-left: 9%;
   }
 
-  .avatarOne, .avatarTwo, .avatarThree, .avatarFour, .avatarFive {
+  .avatarOne,
+  .avatarTwo,
+  .avatarThree,
+  .avatarFour,
+  .avatarFive {
     width: 60px;
     height: 60px;
     border: 3px solid white;
-    }
-  
+  }
 
   .question {
     width: 100%;
@@ -352,12 +355,11 @@ button:hover {
     font-family: mk;
     font-size: 21px !important;
   }
-  
+
   .designBy h1 {
     font-family: muli;
     font-size: 18px !important;
   }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -380,10 +382,9 @@ button:hover {
     font-family: mk;
     font-size: 18px !important;
   }
-  
+
   .designBy h1 {
     font-family: muli;
     font-size: 16px !important;
   }
-
 }
