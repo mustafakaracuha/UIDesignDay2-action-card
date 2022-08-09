@@ -2,17 +2,23 @@ import React, { useState } from "react";
 import arrow from "../assets/img/arrow.png";
 
 export default function MailInput() {
-  const [mail, setMail] = useState("youremail@address.com");
+  const [mail, setMail] = useState("");
+
+  const emailSend = () => {
+    window.location = `mailto:${mail}`;
+    setMail("");
+  };
 
   return (
     <>
       <input
         className="mailInp"
+        value={mail}
         onChange={(e) => setMail(e.target.value)}
-        placeholder={mail}
+        placeholder="youremail@address.com"
       />
       <span>
-        <button onClick={() => (window.location = `mailto:${mail}`)}>
+        <button onClick={emailSend}>
           <img width={25} src={arrow} />
         </button>
       </span>
