@@ -359,3 +359,31 @@ button:hover {
   }
 
 }
+
+@media screen and (max-width: 480px) {
+  .question {
+    width: 100%;
+    color: white;
+    font-family: muli;
+    text-align: center;
+    font-size: 35px !important;
+    margin-top: 10%;
+    line-height: 1.5 !important;
+  }
+
+  .designBy {
+    color: #7b96f3;
+  }
+
+  .designBy p {
+    width: 100% !important;
+    font-family: mk;
+    font-size: 18px !important;
+  }
+  
+  .designBy h1 {
+    font-family: muli;
+    font-size: 16px !important;
+  }
+
+}
