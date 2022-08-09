@@ -8,6 +8,7 @@ function App() {
         <Card />
       </div>
       <div className="designBy">
+        <p className="day">Day 2</p>
         <h1>By</h1>
         <p> Mustafa Karaçuha</p>
       </div>

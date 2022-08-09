@@ -12,6 +12,11 @@
   src: url(./assets/fonts/Bilal-d99MX.otf);
 }
 
+@font-face {
+  font-family: day;
+  src: url(./assets/fonts/coolvetica\ rg.otf);
+}
+
 
 body {
   width: 100%;
@@ -254,6 +259,11 @@ button:hover {
   font-size: 20px !important;
 }
 
+.day {
+font-family: day !important;
+}
+
+
 @media screen and (max-width: 992px) {
   .box {
     width: 100%;
@@ -331,3 +341,4 @@ button:hover {
     display: none;
   }
 }
+
