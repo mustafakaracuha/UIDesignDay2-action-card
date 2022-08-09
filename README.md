@@ -7,7 +7,7 @@
 
 ### Live
 
-🔗 https://ui-design-day1-dropdown.vercel.app/
+🔗 https://ui-design-day2-actioncard.vercel.app/
 
 ### Installation
 
