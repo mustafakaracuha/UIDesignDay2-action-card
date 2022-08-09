@@ -290,9 +290,16 @@ button:hover {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 100px;
-    padding-left: 8%;
+    grid-auto-rows: 90px;
+    padding-left: 9%;
   }
+
+  .avatarOne, .avatarTwo, .avatarThree, .avatarFour, .avatarFive {
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    }
+  
 
   .question {
     width: 100%;
@@ -300,7 +307,7 @@ button:hover {
     font-family: muli;
     text-align: center;
     font-size: 35px !important;
-    margin-top: 25%;
+    margin-top: 20%;
     line-height: 1.5 !important;
   }
 
@@ -335,7 +342,20 @@ button:hover {
     font-size: 14px;
     color: #e5eaf8;
   }
+
   .designBy {
-    display: none;
+    color: #7b96f3;
   }
+
+  .designBy p {
+    width: 100% !important;
+    font-family: mk;
+    font-size: 26px !important;
+  }
+  
+  .designBy h1 {
+    font-family: muli;
+    font-size: 20px !important;
+  }
+
 }
