@@ -20,4 +20,4 @@
 
 ### Screenshot
 
-<img align="center" width="800" width="800"  src="https://github.com/mustafakaracuha/UIDesignDay2-action-card/blob/master/src/assets/img/screenshot.png" alt="muskaracuha" />
+<img align="center" style="border-radius:10px" width="800" width="800"  src="https://github.com/mustafakaracuha/UIDesignDay2-action-card/blob/master/src/assets/img/screenshot.png" alt="muskaracuha" />
