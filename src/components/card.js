@@ -19,7 +19,6 @@ export default function Card() {
           <Avatar />
         </div>
       </div>
-
     </>
   );
 }

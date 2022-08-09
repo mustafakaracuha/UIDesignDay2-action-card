@@ -17,7 +17,6 @@
   src: url(./assets/fonts/coolvetica\ rg.otf);
 }
 
-
 body {
   width: 100%;
   height: 100%;
@@ -260,9 +259,8 @@ button:hover {
 }
 
 .day {
-font-family: day !important;
+  font-family: day !important;
 }
-
 
 @media screen and (max-width: 992px) {
   .box {
@@ -341,4 +339,3 @@ font-family: day !important;
     display: none;
   }
 }
-
