@@ -297,7 +297,7 @@ button:hover {
   .avatarOne, .avatarTwo, .avatarThree, .avatarFour, .avatarFive {
     width: 60px;
     height: 60px;
-    border: 1px solid white;
+    border: 3px solid white;
     }
   
 
@@ -350,12 +350,12 @@ button:hover {
   .designBy p {
     width: 100% !important;
     font-family: mk;
-    font-size: 26px !important;
+    font-size: 21px !important;
   }
   
   .designBy h1 {
     font-family: muli;
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
 
 }
