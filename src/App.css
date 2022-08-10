@@ -24,10 +24,14 @@
   align-items: center;
 }
 
-body {
+
+
+html,body {
   width: 100%;
   height: 100%;
   background-color: #f2f6ff;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .box {
